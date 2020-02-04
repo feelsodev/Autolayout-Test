@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     // Add Button
     private let previousButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("SOJUNG", for: .normal)
+        button.setTitle("PRV", for: .normal)
         button.setTitleColor(.red, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)

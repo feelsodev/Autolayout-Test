@@ -10,6 +10,8 @@ import UIKit
 
 class SwipingController : UICollectionViewController, UICollectionViewDelegateFlowLayout{
     
+    let imageNames = ["gom_first.png","IMG_8531.jpg","dog_image.jpg","dog2_image.jpg"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,13 +26,19 @@ class SwipingController : UICollectionViewController, UICollectionViewDelegateFl
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return imageNames.count
     }
     
     override func collectionView(_ collectionView: UICollectionView,
                                  cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "celled", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "celled", for: indexPath) as! PageCell
 //        cell.backgroundColor = indexPath.item % 2 == 0 ? .red : .green
+        
+        let imageName = imageNames[indexPath.item]
+        cell.gomImage.image = UIImage(named: imageName)
+        // dont try this, it is a very bad idea
+//        let imageView = UIImageView()
+//        cell.addSubview(imageView)
         return cell
     }
     
