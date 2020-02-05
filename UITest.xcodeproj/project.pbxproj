@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A5039E2F23E1BA7B00819BBC /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5039E2E23E1BA7B00819BBC /* SwipingController.swift */; };
 		A5039E3323E1E0AA00819BBC /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5039E3223E1E0AA00819BBC /* PageCell.swift */; };
+		A5200A8423E999C8009459F1 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5200A8323E999C8009459F1 /* Page.swift */; };
 		A5E2DFBC23C48A390059E960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2DFBB23C48A390059E960 /* AppDelegate.swift */; };
 		A5E2DFC023C48A390059E960 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E2DFBF23C48A390059E960 /* ViewController.swift */; };
 		A5E2DFC323C48A390059E960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E2DFC123C48A390059E960 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		A5039E2E23E1BA7B00819BBC /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		A5039E3223E1E0AA00819BBC /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		A5200A8323E999C8009459F1 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		A5E2DFB823C48A390059E960 /* UITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E2DFBB23C48A390059E960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E2DFBF23C48A390059E960 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				A5E2DFC923C48A3B0059E960 /* Info.plist */,
 				A5039E2E23E1BA7B00819BBC /* SwipingController.swift */,
 				A5039E3223E1E0AA00819BBC /* PageCell.swift */,
+				A5200A8323E999C8009459F1 /* Page.swift */,
 			);
 			path = UITest;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				A5E2DFBC23C48A390059E960 /* AppDelegate.swift in Sources */,
 				A5039E3323E1E0AA00819BBC /* PageCell.swift in Sources */,
 				A5039E2F23E1BA7B00819BBC /* SwipingController.swift in Sources */,
+				A5200A8423E999C8009459F1 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
